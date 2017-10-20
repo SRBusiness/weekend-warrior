@@ -1,6 +1,7 @@
 gem 'minitest', '>= 5.0.0'
 require 'minitest/autorun'
 require_relative 'hamming'
+require 'pry'
 
 describe Hamming do
   it  "Check identical strands" do
